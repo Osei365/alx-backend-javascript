@@ -11,4 +11,8 @@ export default class Building {
   get sqft() {
     return this._sqrt;
   }
+
+  set sqft(value) {
+    this._sqft = value;
+  }
 }
