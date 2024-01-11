@@ -5,4 +5,5 @@ interface Teacher {
     yearsOfExperience: number,
     location: string,
     contract?: boolean,
-};
+    };
+
