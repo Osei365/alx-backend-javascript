@@ -1,6 +1,7 @@
 const fs = require('fs');
 /**
  * It returns something
+ * @params {str} path - path
  */
 function countStudents(path) {
   try {
