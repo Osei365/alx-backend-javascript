@@ -7,10 +7,10 @@ function countStudents(path) {
     const SWElist = [];
     console.log(`Number of students: ${newData.length - 2}`);
     for (let i = 1; i <= 10; i++) {
-      let temp_list = newData[i].split(',');
-      if (temp_list[3] === 'CS') {
+      const tempList = newData[i].split(',');
+      if (tempList[3] === 'CS') {
         CSlist.push(temp_list[0]);
-      } else if (temp_list[3] == 'SWE') {
+      } else if (tempList[3] == 'SWE') {
         SWElist.push(temp_list[0]);
       }
     }
