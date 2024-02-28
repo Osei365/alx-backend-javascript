@@ -1,7 +1,7 @@
-const fs = require("fs");
+const fs = require('fs');
 function countStudents(path) {
   try {
-    const data = fs.readFileSync(path, "utf8");
+    const data = fs.readFileSync(path, 'utf8');
     const newData = data.split('\n');
     const CSlist = [];
     const SWElist = [];
