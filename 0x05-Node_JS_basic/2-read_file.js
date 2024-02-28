@@ -14,8 +14,10 @@ function countStudents(path) {
         SWElist.push(tempList[0]);
       }
     }
-    console.log(`Number of students in CS: ${CSlist.length}. List: ${CSlist.join(', ')}`);
-    console.log(`Number of students in SWE: ${SWElist.length}. List: ${SWElist.join(', ')}`);
+    const sentCS = 'Number of students in CS';
+    const sentSWE = 'Number of students in SWE';
+    console.log(`${sentCS}: ${CSlist.length}. List: ${CSlist.join(', ')}`);
+    console.log(`${sentSWE}: ${SWElist.length}. List: ${SWElist.join(', ')}`);
   } catch (error) {
     throw new Error('Cannot load the database');
   }
