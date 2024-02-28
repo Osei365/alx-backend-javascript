@@ -1,5 +1,7 @@
 const fs = require('fs');
-
+/**
+ * It returns something
+ */
 function countStudents(path) {
   try {
     const data = fs.readFileSync(path, 'utf8');
