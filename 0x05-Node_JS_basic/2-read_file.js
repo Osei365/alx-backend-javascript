@@ -9,9 +9,9 @@ function countStudents(path) {
     for (let i = 1; i <= 10; i++) {
       const tempList = newData[i].split(',');
       if (tempList[3] === 'CS') {
-        CSlist.push(temp_list[0]);
+        CSlist.push(tempList[0]);
       } else if (tempList[3] == 'SWE') {
-        SWElist.push(temp_list[0]);
+        SWElist.push(tempList[0]);
       }
     }
     console.log(`Number of students in CS: ${CSlist.length}. List: ${CSlist.join(', ')}`);
